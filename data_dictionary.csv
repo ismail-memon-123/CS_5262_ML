@@ -1,0 +1,11 @@
+Feature,Description
+age,Age of person who received the call
+job,"Type of job they hold (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')"
+marital,"Marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)"
+education,"Education level of the person who received the call (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')"
+deafult,Does the receiver have credit in default?
+balance,Average yearly balance
+housing,Has outstanding housing loan
+loan,Has outstanding personal loan
+contact,Contact communication type of the call either  'cellular' or 'telephone'
+day_of_week,Last contact day of the week
