@@ -4,7 +4,7 @@ Repository for the ML course in Vandy, CS 5262.
 
 # Machine Learning Model to Predict the Effectiveness of Bank Telemarketing Calls
 
-##Background
+## Background
 This is a ML projet using the dataset available at this link: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 This is a dataset provided by UCI about marketing calls conducted by a bank in Portugual. Using its telemarketing team and often calling the same customers more than once, the bank aimed to get its audience to subscribe a term deposit.
@@ -14,7 +14,7 @@ callee will actually place a deposit in the bank. The company would like to idea
 telemarketing to cause a successive outcome (a deposit from the audience). Because there are different types of demographics and other characteristics of the people that the company reaches out to, and there are different aspects of the call itself (duration, what time the call was conducted, etc.), many variables go into this model. The idea is we want to guide the telemarketers to follow the infromation from this model and ensure that each time an individual is called, they are called in the "correct way" such that they do make a deposit.
 
 
-##Confusion Matrix and Business Evaluation
+## Confusion Matrix and Business Evaluation
 Here are the interpretations of the false positive and false negative cases:
 False Positive Case:
 Scenario: The model predicts a client will subscribe (yes), but in reality, the client does not.
