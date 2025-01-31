@@ -1,11 +1,11 @@
-Feature,Description,Role,Type,Units,Missing Values?,Meaning of Encoding (if applicable)
-age,Age of person who received the call,Feature,Integer,No
+Feature,Description,Role,Type,Missing Values?,Meaning of Encoding (if applicable)
+age,Age of person who received the call,Feature,Integer,No,N/A
 job,Type of job they hold,Feature,Categorical,No,Value 1:Admin Value 2:blue-collar Value 3:entrepreneur Value 4:housemaid Value 5:management Value 6:retired Value 7:self-employed Value 8:services Value 9:student Value 10:technician Value 11:unemployed Value 12:unknown
 marital,Marital status,Feature,Categorical,No,Value 1:divorced or widowed Value 2:married Value 3:single Value 4:unknown
 education,Education level of the person who received the call,Feature,Categorical,No,Value 1:basic 4y Value 2:basic 6y Value 3:basic 9y Value 4:high school Value 5:illiterate Value 6:professional course Value 7:university degree Value 8:unknown
-deafult,Does the receiver have credit in default?,Feature,Binary,No
-balance,Average yearly balance in euros,Feature,Integer,No
-housing,Has outstanding housing loan,Feature,Binary,No
-loan,Has outstanding personal loan,Feature,Binary,No
+deafult,Does the receiver have credit in default?,Feature,Binary,No,N/A
+balance,Average yearly balance in euros,Feature,Integer,No,N/A
+housing,Has outstanding housing loan,Feature,Binary,No,N/A
+loan,Has outstanding personal loan,Feature,Binary,No,N/A
 contact,Contact communication type of the call,Feature,Categorical,No, Value 1:cellular Value 2:telephone
-day_of_week,Last contact day of the week,Feature,Date,No
+day_of_week,Last contact day of the week,Feature,Date,No,N/A
